@@ -26,16 +26,15 @@
 }
 
 /* =========================================
-   LIGHT MODE OVERRIDE (AUTOMATIC VIA OS)
+   LIGHT MODE OVERRIDES
    ========================================= */
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
-
-    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #eef2f5 49%, #bfe3d0 72%);
-    --theme-bg-loader: #eef2f5;
-    --theme-card-bg: #ffffff;
-    --theme-card-border: rgba(0, 0, 0, 0.08);
+    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #e2e8ea 49%, #b5d5c5 72%);
+    --theme-bg-loader: #e2e8ea;
+    --theme-card-bg: #f0f4f5; 
+    --theme-card-border: rgba(0, 0, 0, 0.1);
     --theme-text-main: #2b3a3b;
     --theme-text-muted: rgba(43, 58, 59, 0.82);
     --theme-text-mark: #008a50;
@@ -44,7 +43,6 @@
     --theme-code-bg: rgba(0, 0, 0, 0.05);
   }
 }
-
 html,
 body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
