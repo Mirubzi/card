@@ -1,5 +1,5 @@
 /* =========================================
-   THEME VARIABLES (DARK BY DEFAULT)
+   BASE VARIABLES
    ========================================= */
 :root {
   color-scheme: dark;
@@ -12,7 +12,7 @@
   --site-language-indent-right: 0;
   --viewport-height: 100vh;
 
-  /* Dark Colors */
+  /* Default Colors (Dark) */
   --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #000000 49%, #006E40 72%);
   --theme-bg-loader: #000000;
   --theme-card-bg: #212121;
@@ -26,15 +26,36 @@
 }
 
 /* =========================================
-   LIGHT MODE OVERRIDES
+   EXPLICIT DARK MODE
+   ========================================= */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    
+    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #000000 49%, #006E40 72%);
+    --theme-bg-loader: #000000;
+    --theme-card-bg: #212121;
+    --theme-card-border: rgba(0, 0, 0, 0.5);
+    --theme-text-main: #AFC2C4;
+    --theme-text-muted: rgba(189, 200, 201, 0.82);
+    --theme-text-mark: #6EFFBF;
+    --theme-btn-border: #006E40;
+    --theme-accent: #00A35F;
+    --theme-code-bg: rgba(144, 144, 144, 0.25);
+  }
+}
+
+/* =========================================
+   NORMAL LIGHT MODE (PURE WHITE)
    ========================================= */
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
-    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #e2e8ea 49%, #b5d5c5 72%);
-    --theme-bg-loader: #e2e8ea;
-    --theme-card-bg: #f0f4f5; 
-    --theme-card-border: rgba(0, 0, 0, 0.1);
+    
+    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #eef2f5 49%, #bfe3d0 72%);
+    --theme-bg-loader: #eef2f5;
+    --theme-card-bg: #ffffff;
+    --theme-card-border: rgba(0, 0, 0, 0.08);
     --theme-text-main: #2b3a3b;
     --theme-text-muted: rgba(43, 58, 59, 0.82);
     --theme-text-mark: #008a50;
