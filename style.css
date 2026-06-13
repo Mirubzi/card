@@ -11,19 +11,15 @@
   --site-language-indent-left: 1;
   --site-language-indent-right: 0;
   --viewport-height: 100vh;
-
   --theme-bg-loader: #0D1511; 
   --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #0D1511 49%, #005235 72%);
-  --theme-card-bg: #151D19; 
-  --theme-card-border: rgba(137, 147, 140, 0.2); 
-  
-  --theme-text-main: #E0E4DF;
+  --theme-card-bg: #1E2923; 
+  --theme-card-border: rgba(137, 147, 140, 0.35); 
+  --theme-text-main: #E0E4DF; 
   --theme-text-muted: #A0A9A3; 
-  
   --theme-text-mark: #5CDEB0; 
   --theme-btn-border: #5CDEB0; 
   --theme-accent: #5CDEB0; 
-  
   --theme-code-bg: rgba(160, 169, 163, 0.12); 
 }
 
@@ -36,8 +32,8 @@
     
     --theme-bg-loader: #0D1511;
     --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #0D1511 49%, #005235 72%);
-    --theme-card-bg: #151D19;
-    --theme-card-border: rgba(137, 147, 140, 0.2);
+    --theme-card-bg: #1E2923; 
+    --theme-card-border: rgba(137, 147, 140, 0.35); 
     --theme-text-main: #E0E4DF;
     --theme-text-muted: #A0A9A3;
     --theme-text-mark: #5CDEB0;
@@ -53,20 +49,16 @@
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
-    
     --theme-bg-loader: #F4FBF5; 
     --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #F4FBF5 49%, #B1F0D1 72%);
-    --theme-card-bg: #EEF5F0; 
-    --theme-card-border: rgba(111, 121, 115, 0.2); 
-    
-    --theme-text-main: #151D19;
-    --theme-text-muted: #404944;
-    
+    --theme-card-bg: #FFFFFF; 
+    --theme-card-border: rgba(111, 121, 115, 0.35); 
+    --theme-text-main: #151D19; 
+    --theme-text-muted: #404944; 
     --theme-text-mark: #006C4B; 
     --theme-btn-border: #006C4B;
     --theme-accent: #006C4B;
-    
-    --theme-code-bg: rgba(64, 73, 68, 0.06);
+    --theme-code-bg: rgba(64, 73, 68, 0.06); 
   }
 }
 html,
