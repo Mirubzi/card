@@ -2,6 +2,7 @@
    THEME VARIABLES
    ========================================= */
 :root {
+  color-scheme: dark; 
   --background-height: 100vh;
   --site-language-alignment: left;
   --site-language-direction: ltr;
@@ -28,6 +29,7 @@
    ========================================= */
 @media (prefers-color-scheme: light) {
   :root {
+    color-scheme: light; 
     --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #eef2f5 49%, #bfe3d0 72%);
     --theme-bg-loader: #eef2f5;
     --theme-card-bg: #ffffff;
