@@ -1,8 +1,9 @@
 /* =========================================
-   THEME VARIABLES
+   THEME VARIABLES (DARK BY DEFAULT)
    ========================================= */
 :root {
-  color-scheme: dark; 
+  color-scheme: dark;
+
   --background-height: 100vh;
   --site-language-alignment: left;
   --site-language-direction: ltr;
@@ -11,7 +12,7 @@
   --site-language-indent-right: 0;
   --viewport-height: 100vh;
 
-  /* Colors */
+  /* Dark Colors */
   --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #000000 49%, #006E40 72%);
   --theme-bg-loader: #000000;
   --theme-card-bg: #212121;
@@ -25,11 +26,12 @@
 }
 
 /* =========================================
-   LIGHT MODE OVERRIDES
+   LIGHT MODE OVERRIDE (AUTOMATIC VIA OS)
    ========================================= */
 @media (prefers-color-scheme: light) {
   :root {
-    color-scheme: light; 
+    color-scheme: light;
+
     --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #eef2f5 49%, #bfe3d0 72%);
     --theme-bg-loader: #eef2f5;
     --theme-card-bg: #ffffff;
