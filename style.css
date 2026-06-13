@@ -1,5 +1,5 @@
 /* =========================================
-   BASE VARIABLES
+   BASE VARIABLES & DEFAULT FALLBACK (DARK)
    ========================================= */
 :root {
   color-scheme: dark;
@@ -12,17 +12,19 @@
   --site-language-indent-right: 0;
   --viewport-height: 100vh;
 
-  /* Default Colors (Dark) */
-  --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #000000 49%, #006E40 72%);
-  --theme-bg-loader: #000000;
-  --theme-card-bg: #212121;
-  --theme-card-border: rgba(0, 0, 0, 0.5);
-  --theme-text-main: #AFC2C4;
-  --theme-text-muted: rgba(189, 200, 201, 0.82);
-  --theme-text-mark: #6EFFBF;
-  --theme-btn-border: #006E40;
-  --theme-accent: #00A35F;
-  --theme-code-bg: rgba(144, 144, 144, 0.25);
+  --theme-bg-loader: #0D1511; 
+  --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #0D1511 49%, #005235 72%);
+  --theme-card-bg: #151D19; 
+  --theme-card-border: rgba(137, 147, 140, 0.2); 
+  
+  --theme-text-main: #E0E4DF;
+  --theme-text-muted: #A0A9A3; 
+  
+  --theme-text-mark: #5CDEB0; 
+  --theme-btn-border: #5CDEB0; 
+  --theme-accent: #5CDEB0; 
+  
+  --theme-code-bg: rgba(160, 169, 163, 0.12); 
 }
 
 /* =========================================
@@ -32,36 +34,39 @@
   :root {
     color-scheme: dark;
     
-    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #000000 49%, #006E40 72%);
-    --theme-bg-loader: #000000;
-    --theme-card-bg: #212121;
-    --theme-card-border: rgba(0, 0, 0, 0.5);
-    --theme-text-main: #AFC2C4;
-    --theme-text-muted: rgba(189, 200, 201, 0.82);
-    --theme-text-mark: #6EFFBF;
-    --theme-btn-border: #006E40;
-    --theme-accent: #00A35F;
-    --theme-code-bg: rgba(144, 144, 144, 0.25);
+    --theme-bg-loader: #0D1511;
+    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #0D1511 49%, #005235 72%);
+    --theme-card-bg: #151D19;
+    --theme-card-border: rgba(137, 147, 140, 0.2);
+    --theme-text-main: #E0E4DF;
+    --theme-text-muted: #A0A9A3;
+    --theme-text-mark: #5CDEB0;
+    --theme-btn-border: #5CDEB0;
+    --theme-accent: #5CDEB0;
+    --theme-code-bg: rgba(160, 169, 163, 0.12);
   }
 }
 
 /* =========================================
-   NORMAL LIGHT MODE (PURE WHITE)
+   NORMAL LIGHT MODE
    ========================================= */
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;
     
-    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #eef2f5 49%, #bfe3d0 72%);
-    --theme-bg-loader: #eef2f5;
-    --theme-card-bg: #ffffff;
-    --theme-card-border: rgba(0, 0, 0, 0.08);
-    --theme-text-main: #2b3a3b;
-    --theme-text-muted: rgba(43, 58, 59, 0.82);
-    --theme-text-mark: #008a50;
-    --theme-btn-border: #008a50;
-    --theme-accent: #008a50;
-    --theme-code-bg: rgba(0, 0, 0, 0.05);
+    --theme-bg-loader: #F4FBF5; 
+    --theme-bg-gradient: conic-gradient(from 115deg at 100% 78%, #F4FBF5 49%, #B1F0D1 72%);
+    --theme-card-bg: #EEF5F0; 
+    --theme-card-border: rgba(111, 121, 115, 0.2); 
+    
+    --theme-text-main: #151D19;
+    --theme-text-muted: #404944;
+    
+    --theme-text-mark: #006C4B; 
+    --theme-btn-border: #006C4B;
+    --theme-accent: #006C4B;
+    
+    --theme-code-bg: rgba(64, 73, 68, 0.06);
   }
 }
 html,
